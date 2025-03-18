@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
         width: "100%",
         backgroundColor: '#1F1E25',
         borderRadius: 5,
+        marginBottom: 10,
     },
     title: {
         marginLeft: 16,
@@ -15,10 +16,15 @@ export const styles = StyleSheet.create({
         color: "#FDFCFE",
         fontWeight: 'bold'
     },
+    titleButton: {
+        color: "#FDFCFE",
+        fontSize: 21,
+        fontWeight: 'bold'
+    },
     button: {
         width: 59,
         height: 59,
-        backgroundColor: "#87028C",
+        backgroundColor: "#ff0000",
         borderRadius: 5,
         justifyContent: 'center',
         alignItems: 'center'

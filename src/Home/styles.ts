@@ -18,7 +18,8 @@ export const styles = StyleSheet.create({
         marginBottom: 34
     },
     form: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginBottom: 25
     },
     input: {
         flex: 1,
@@ -43,5 +44,10 @@ export const styles = StyleSheet.create({
         color: "#FDFCFE",
         fontSize: 21,
         fontWeight: 'bold'
+    },
+    listEmptyText: {
+        color: "#6B6B6B",
+        fontSize: 14,
+        textAlign: 'center',
     }
 })
